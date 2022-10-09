@@ -1,0 +1,9 @@
+.navbar{
+    display: flex;
+    gap: 2em;
+}
+
+.navbar-icon{
+    font-size: 3em;
+    margin: 3px 0 0 10px;
+}

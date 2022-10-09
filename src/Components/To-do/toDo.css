@@ -1,0 +1,86 @@
+.upper-title{
+    width: max-content;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.upper-title-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    border: 1px solid black;
+    width: max-content;
+    margin: 2em;
+    box-shadow: 3px 3px 4px 1px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    font-size: 1.5em;
+}
+
+.form-title,
+.container-btn,
+.upper-title-input{
+    display: flex;
+    gap: 1em;
+    height: 2em;
+}
+
+.form-title > input,
+.upper-title-input > input{
+    border-color: rgb(82, 195, 208);
+}
+
+.btn-submit{
+    height: 1.5em;
+    position: relative;
+    top: 0.5em;
+    background:rgb(101, 101, 192);
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+}
+
+.container-checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-checkbox{
+    display: flex;
+    line-height: 2em;
+    align-items: center;
+    gap: 1em;
+    font-size: 1em;
+}
+
+.btn-all{
+    width: 4em;
+    background: border-box;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: .3em;
+}
+
+.btn-active{
+    color: rgb(47, 106, 255);
+    background: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-completed{
+    color: red;
+    background: border-box;
+    border: none;
+    cursor: pointer;
+}

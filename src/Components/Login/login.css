@@ -1,0 +1,13 @@
+.btn-login,
+.btn-logout{
+    width: 5em;
+    height: 2.2em;
+    margin: 1em;
+    border-radius: 1em;
+    transition: all 0.4s ease-in;
+}
+
+.btn-login:hover,
+.btn-logout:hover{
+    background: cyan;
+}
