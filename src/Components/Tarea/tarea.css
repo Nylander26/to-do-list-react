@@ -1,0 +1,48 @@
+.editor-box{
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.pointer-edicion{
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.centro{
+    text-align: center;
+}
+
+.editor{
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 1em;
+    border: 1px solid transparent;
+    width: 5em;
+}
+
+.btn-active {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.682);
+    background: yellow;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 0.4em;
+}
+
+.btn-completed {
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    background: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.blurry{
+    display: inline-block;
+    margin: 2em;
+    filter: blur(0.2em);
+    transition: all 1s ease-in;
+}
+

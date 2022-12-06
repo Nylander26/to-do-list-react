@@ -9,5 +9,6 @@
 
 .btn-login:hover,
 .btn-logout:hover{
-    background: cyan;
+    background: rgb(112, 197, 197);
+    border: none;
 }
